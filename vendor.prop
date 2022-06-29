@@ -248,7 +248,6 @@ persist.vendor.radio.mtk_ps2_rat=N/L/W/G
 persist.vendor.radio.mtk_ps3_rat=G
 persist.vendor.radio.smart.data.switch=1
 ro.telephony.default_network=33,33,33,33
-ro.telephony.sim.count=2
 ro.vendor.ap_info_monitor=0
 ro.vendor.mtk_lte_support=1
 ro.vendor.mtk_md_world_mode_support=1
