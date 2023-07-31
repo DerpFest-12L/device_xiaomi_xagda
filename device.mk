@@ -467,7 +467,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
-    libwifi-hal-mt66xx \
     android.hardware.wifi@1.0-service-lazy
 
 PRODUCT_PACKAGES += \
@@ -478,7 +477,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl
-    
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek
