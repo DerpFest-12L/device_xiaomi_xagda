@@ -478,6 +478,14 @@
         <MaxValue>20</MaxValue>
         <MinValue>2</MinValue>
     </CMD>
+    <CMD name="PERF_RES_GPU_FW_IDLE" id="0x00c20000">
+        <Entry path="/sys/kernel/ged/hal/fw_idle"></Entry>
+        <Compare>more</Compare>
+        <MaxValue>5</MaxValue>
+        <MinValue>0</MinValue>
+        <DefaultValue>0</DefaultValue>
+        <Valid>1</Valid>
+    </CMD>
     <CMD name="PERF_RES_FPS_FPSGO_SP_NAME_ID" id="0x02048100">
         <Entry path="/sys/module/mtk_fpsgo/parameters/xgf_sp_name_id"></Entry>
         <Compare>more</Compare>
