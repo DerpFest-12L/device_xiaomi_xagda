@@ -95,6 +95,12 @@ function blob_fixup() {
             "$PATCHELF" --replace-needed libutils.so libutils-v32.so "$2"
             "$PATCHELF" --replace-needed libhidlbase.so libhidlbase-v32.so "$2"
             ;;
+        vendor/bin/mnld)
+            "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-hidl.so" "$2"
+            ;;
+        vendor/lib*/mt6895/libaalservice.so)
+            "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-hidl.so" "$2"
+            ;;
     esac
 }
 
