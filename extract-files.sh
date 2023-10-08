@@ -79,6 +79,9 @@ function blob_fixup() {
         vendor/lib/mt6895/libmtkcam_stdutils.so | vendor/lib64/mt6895/libmtkcam_stdutils.so)
             "$PATCHELF" --replace-needed libutils.so libutils-v32.so "$2"
             ;;
+        vendor/lib64/libwvhidl.so | vendor/lib64/mediadrm/libwvdrmengine.so | vendor/bin/hw/android.hardware.drm@1.4-service.clearkey)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
     esac
 }
 
