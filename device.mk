@@ -465,9 +465,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek
 
-# Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-    
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/xaga/xaga-vendor.mk)
