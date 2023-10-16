@@ -16,6 +16,13 @@ persist.vendor.sys.fp.          u:object_r:vendor_fp_prop:s0
 persist.vendor.sys.fp.info      u:object_r:vendor_fp_info_prop:s0
 persist.vendor.sys.fp.uid       u:object_r:vendor_fp_info_prop:s0
 
+# LMK
+ro.lmk.limit_killing_array_kb         u:object_r:lmkd_config_prop:s0
+ro.lmk.psi_complete_stall_ms_dup      u:object_r:lmkd_config_prop:s0
+ro.lmk.nandswap_version               u:object_r:lmkd_config_prop:s0
+ro.lmk.psi_scrit_complete_stall_ms    u:object_r:lmkd_config_prop:s0
+ro.lmk.swap_is_low_kill_enable        u:object_r:lmkd_config_prop:s0
+
 # Mlipay
 persist.vendor.sys.pay.                  u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.attestation.status    u:object_r:vendor_payment_security_prop:s0
