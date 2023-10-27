@@ -1,0 +1,12 @@
+type hal_otrpagent_default, domain;
+type hal_otrpagent_hwservice, hwservice_manager_type;
+type hal_otrpagent_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_otrpagent_default)
+
+# Add hwservice related rules
+add_hwservice(hal_otrpagent_default, hal_otrpagent_hwservice)
+allow hal_otrpagent_default hal_otrpagent_hwservice:hwservice_manager find;
+allow hal_otrpagent_default hwservicemanager:binder { call transfer };
+get_prop(hal_otrpagent_default, hwservicemanager_prop)
+
