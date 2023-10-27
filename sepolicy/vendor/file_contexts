@@ -101,6 +101,7 @@
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.vibratorfeature\.service    u:object_r:hal_vibrator_default_exec:s0
 /vendor/bin/hw/mfp-daemon u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service     u:object_r:hal_nfc_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.mimd@1\.0-service      u:object_r:hal_mimd_default_exec:s0
 
 # Mitee
 /mnt/vendor/persist/data(/.*)?                    u:object_r:mitee_sfs_file:s0
