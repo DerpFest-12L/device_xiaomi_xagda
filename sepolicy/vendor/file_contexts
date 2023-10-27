@@ -105,6 +105,8 @@
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@1\.0-service u:object_r:hal_slaservice_qti_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor.xiaomi.hardware.cld@1.0-service     u:object_r:hal_health_storage_default_exec:s0
 /(vendor|system/vendor)/bin/vendor\.xiaomi\.hardware\.otrpagent@2\.0-service   u:object_r:hal_otrpagent_default_exec:s0
+/(vendor|system/vendor)/bin/displayfeature                      u:object_r:displayfeature_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service u:object_r:hal_displayfeature_xiaomi_default_exec:s0
 
 # Mitee
 /mnt/vendor/persist/data(/.*)?                    u:object_r:mitee_sfs_file:s0
