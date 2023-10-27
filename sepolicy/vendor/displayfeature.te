@@ -1,0 +1,8 @@
+type displayfeature, domain;
+type displayfeature_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(displayfeature)
+vndbinder_use(displayfeature)
+
+get_prop(displayfeature, vendor_displayfeature_prop)
+set_prop(displayfeature, vendor_displayfeature_prop)
