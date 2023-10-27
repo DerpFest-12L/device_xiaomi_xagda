@@ -1,0 +1,12 @@
+type hal_slaservice_qti, domain;
+type hal_slaservice_hwservice, hwservice_manager_type;
+type hal_slaservice_qti_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_slaservice_qti)
+
+# Add hwservice related rules
+
+add_hwservice(hal_slaservice_qti, hal_slaservice_hwservice)
+allow hal_slaservice_qti hal_slaservice_hwservice:hwservice_manager find;
+allow hal_slaservice_qti hwservicemanager:binder { call transfer };
+get_prop(hal_slaservice_qti, hwservicemanager_prop)
