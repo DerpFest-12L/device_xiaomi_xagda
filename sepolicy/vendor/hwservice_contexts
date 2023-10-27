@@ -31,3 +31,4 @@ vendor.nxp.hardware.nfc::INqNfc                                             u:ob
 # Hals
 vendor.xiaomi.hardware.mimd::IMimd                                           u:object_r:hal_mimd_hwservice:s0
 vendor.qti.sla.service::ISlaService                          u:object_r:hal_slaservice_hwservice:s0
+vendor.xiaomi.hardware.cld::ICld   u:object_r:hal_health_storage_hwservice:s0

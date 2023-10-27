@@ -1,0 +1,9 @@
+init_daemon_domain(hal_health_storage_default)
+
+# Add hwservice related rules
+add_hwservice(hal_health_storage_default, hal_health_storage_hwservice)
+allow hal_health_storage_default hal_health_storage_hwservice:hwservice_manager find;
+allow hal_health_storage_default hwservicemanager:binder { call transfer };
+get_prop(hal_health_storage_default, hwservicemanager_prop)
+
+allow hal_health_storage_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
