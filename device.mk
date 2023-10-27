@@ -208,9 +208,6 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
-PRODUCT_PACKAGES += \
-    libshim_vtservice
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
 
@@ -418,6 +415,11 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@2.1.vendor
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_vtservice \
+    libshim_beanpod
+    
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 BOARD_SHIPPING_API_LEVEL := 31
