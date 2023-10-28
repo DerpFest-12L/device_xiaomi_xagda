@@ -35,3 +35,4 @@ vendor.xiaomi.hardware.cld::ICld   u:object_r:hal_health_storage_hwservice:s0
 vendor.xiaomi.hardware.otrpagent::IOTrPAgent        u:object_r:hal_otrpagent_hwservice:s0
 vendor.xiaomi.hardware.displayfeature::IDisplayFeature       u:object_r:hal_displayfeature_xiaomi_hwservice:s0
 vendor.xiaomi.hardware.micharge::IMiCharge   u:object_r:hal_micharge_hwservice:s0
+vendor.xiaomi.hw.touchfeature::ITouchFeature           u:object_r:hal_touchfeature_xiaomi_hwservice:s0
