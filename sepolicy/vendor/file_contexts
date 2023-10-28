@@ -108,6 +108,8 @@
 /(vendor|system/vendor)/bin/displayfeature                      u:object_r:displayfeature_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service u:object_r:hal_displayfeature_xiaomi_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service     u:object_r:hal_micharge_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hw\.touchfeature@1\.0-impl\.so   u:object_r:hal_touchfeature_xiaomi_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hw\.touchfeature@1\.0-service   u:object_r:hal_touchfeature_xiaomi_default_exec:s0
 
 # Mitee
 /mnt/vendor/persist/data(/.*)?                    u:object_r:mitee_sfs_file:s0
