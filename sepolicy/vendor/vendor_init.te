@@ -5,3 +5,10 @@ set_prop(vendor_init, vendor_batterysecret_prop)
 allow vendor_init proc_net:file write;
 
 rw_dir_file(vendor_init, sysfs_leds)
+
+set_prop(vendor_init, audio_prop)
+set_prop(vendor_init, exported_system_prop)
+set_prop(vendor_init, vendor_nfc_mi_prop)
+set_prop(vendor_init, vendor_displayfeature_prop)
+set_prop(vendor_init, vendor_fp_prop)
+set_prop(vendor_init, vendor_mtk_frs_prop)
