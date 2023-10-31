@@ -157,6 +157,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "meta_init.vendor.rc",
+    src: "etc/meta_init.vendor.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "set_permissive.rc",
     src: "etc/set_permissive.rc",
     sub_dir: "init/hw",

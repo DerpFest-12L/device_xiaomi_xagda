@@ -398,6 +398,7 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     init_conninfra.rc \
     meta_init.rc \
+    meta_init.vendor.rc \
     meta_init.connectivity.common.rc \
     meta_init.connectivity.rc \
     meta_init.modem.rc \
