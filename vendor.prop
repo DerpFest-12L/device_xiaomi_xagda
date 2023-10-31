@@ -61,7 +61,6 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 persist.bluetooth.a2dp_offload.cap=sbc-aac
 persist.bluetooth.a2dp_offload.disabled=true
-persist.bluetooth.disableinbandringing=true
 persist.vendor.bluetooth.leaudio_mode=ums-cg
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bt.platform=6895

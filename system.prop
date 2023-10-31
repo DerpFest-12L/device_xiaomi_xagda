@@ -3,6 +3,9 @@ ro.audio.silent=0
 ro.audio.usb.period_us=16000
 ro.camera.sound.forced=0
 
+# Bluetooth
+persist.bluetooth.disableinbandringing=true
+
 # Blur
 persist.sys.sf.disable_blurs=1
 ro.launcher.blur.appLaunch=0
