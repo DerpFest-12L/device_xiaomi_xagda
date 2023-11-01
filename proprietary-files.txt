@@ -1432,17 +1432,8 @@ vendor/lib64/libkmsetkey.so
 vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
-
-# Keymint
-vendor/bin/hw/android.hardware.security.keymint@1.0-service.beanpod
-vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc
 vendor/etc/permissions/android.hardware.hardware_keystore.xml
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml
-vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml
-vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml
 vendor/lib/wechat.beanpod.so
-vendor/lib64/lib_android_keymaster_keymint_utils.so
-vendor/lib64/libkeymint.so
 vendor/lib64/wechat.beanpod.so
 
 # Media (Codec2)
