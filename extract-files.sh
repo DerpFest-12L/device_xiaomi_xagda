@@ -82,9 +82,6 @@ function blob_fixup() {
         vendor/lib64/libwvhidl.so | vendor/lib64/mediadrm/libwvdrmengine.so | vendor/bin/hw/android.hardware.drm@1.4-service.clearkey)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;
-        vendor/bin/hw/android.hardware.security.keymint@1.0-service.beanpod)
-            "${PATCHELF}" --add-needed "libshim_beanpod.so" "${2}"
-            ;;
         vendor/bin/hw/android.hardware.thermal@2.0-service.mtk)
             "$PATCHELF" --replace-needed libutils.so libutils-v32.so "$2"
             "$PATCHELF" --replace-needed libhidlbase.so libhidlbase-v32.so "$2"
