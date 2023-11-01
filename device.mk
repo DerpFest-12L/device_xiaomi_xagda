@@ -264,6 +264,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-V1-ndk_platform.vendor:64 \
     android.hardware.power-V2-ndk_platform.vendor:64 \
+    android.hardware.security.rkp-V1-ndk.vendor \
     android.hardware.security.keymint-V1-ndk_platform.vendor:64 \
     android.hardware.security.sharedsecret-V1-ndk_platform.vendor:64 \
     android.hardware.security.secureclock-V1-ndk_platform.vendor:64 \
