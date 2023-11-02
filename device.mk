@@ -465,9 +465,6 @@ PRODUCT_COPY_FILES += \
     
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi-service-lazy
-    
-PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.config@1.0.vendor \
     android.hardware.tetheroffload.control@1.1.vendor \
     android.hardware.wifi.hostapd@1.3.vendor \
