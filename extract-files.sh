@@ -75,6 +75,8 @@ function blob_fixup() {
             ;;
         vendor/bin/hw/mt6895/camerahalserver)
             "${PATCHELF}" --replace-needed libutils.so libutils-v32.so "${2}"
+            "${PATCHELF}" --replace-needed libbinder.so libbinder-v32.so "${2}"
+            "${PATCHELF}" --replace-needed libhidlbase.so libhidlbase-v32.so "${2}"
             ;;
         vendor/lib/mt6895/libmtkcam_stdutils.so | vendor/lib64/mt6895/libmtkcam_stdutils.so)
             "$PATCHELF" --replace-needed libutils.so libutils-v32.so "$2"
