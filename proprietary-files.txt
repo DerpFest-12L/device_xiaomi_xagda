@@ -1507,9 +1507,9 @@ vendor/lib64/libstagefrighthw.so
 -framework/mediatek-ims-base.jar
 -framework/mediatek-ims-common.jar
 -framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-base.jar|b66b54cdfc5bc93b09867664b44e3f47bfefd028
 -framework/mediatek-telephony-common.jar
--priv-app/ImsService/ImsService.apk
+-priv-app/ImsService/ImsService.apk|57d474aa5846fe85246546a79535b4c2574620a3
 bin/vtservice
 etc/init/init.vtservice.rc
 framework/mediatek-ims-extension-plugin.jar
