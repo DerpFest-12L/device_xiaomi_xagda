@@ -1084,16 +1084,6 @@ on boot
 on boot
     insmod /vendor/lib/modules/msync2_frd.ko
 
-service vendor.charger /system/bin/charger
-    class charger
-    user system
-    group system graphics wakelock input
-    capabilities SYS_BOOT
-    file /dev/kmsg w
-    file /sys/fs/pstore/console-ramoops-0 r
-    file /sys/fs/pstore/console-ramoops r
-    file /proc/last_kmsg r
-
 on property:sys.boot_completed=1
     # Restrict permissions to socket file
     # to hide Magisk & co.
