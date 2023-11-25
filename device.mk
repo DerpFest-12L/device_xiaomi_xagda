@@ -185,7 +185,8 @@ PRODUCT_PACKAGES += \
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.xaga \
-    android.hardware.health-service.xaga-recovery
+    android.hardware.health-service.xaga-recovery \
+    android.hardware.health@1.0.vendor:64
 
 # HIDL
 PRODUCT_PACKAGES += \
