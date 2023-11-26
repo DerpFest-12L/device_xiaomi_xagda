@@ -1003,7 +1003,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
 # Display
-lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/lib/hw/displayfeature.default.so
@@ -1047,8 +1046,6 @@ vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
 
 # Dolby
-lib/vendor.dolby.hardware.dms@2.0.so
-lib64/vendor.dolby.hardware.dms@2.0.so
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
 vendor/etc/dolby/dax-default.xml
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
@@ -1463,25 +1460,6 @@ vendor/lib64/libformatter.so
 vendor/lib64/libstagefright_bufferpool@2.0.1.so
 
 # Media (OMX)
-etc/seccomp_policy/mediacodec.policy
-lib/libdatasource.so
-lib/libdmabufheap.so
-lib/libged_sys.so
-lib/libgralloc_extra_sys.so
-lib/libmedia_codeclist.so
-lib/libstagefright_bufferpool@2.0.1.so
-lib/libstagefright_codecbase.so
-lib/libstagefright_framecapture_utils.so
-lib/libstagefright_wfd_mtk.so
-lib64/libdatasource.so
-lib64/libdmabufheap.so
-lib64/libged_sys.so
-lib64/libgralloc_extra_sys.so
-lib64/libmedia_codeclist.so
-lib64/libstagefright_bufferpool@2.0.1.so
-lib64/libstagefright_codecbase.so
-lib64/libstagefright_framecapture_utils.so
-lib64/libstagefright_wfd_mtk.so
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/seccomp_policy/mediacodec.policy
@@ -1508,11 +1486,6 @@ vendor/lib64/libstagefrighthw.so
 bin/vtservice
 etc/init/init.vtservice.rc
 framework/mediatek-ims-extension-plugin.jar
-lib/libmtk_vt_wrapper.so
-lib/libmtkperf_client.so
-lib/libsysenv_system.so
-lib/libvcodec_cap.so
-lib/libvcodec_capenc.so
 lib64/libcomutils.so
 lib64/libimsma.so
 lib64/libimsma_adapt.so
@@ -2474,11 +2447,6 @@ vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 vendor/thh/ta/isee_model.json
-
-# TER Service
-bin/terservice
-etc/init/terserver.rc
-lib64/libterservice.so
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
