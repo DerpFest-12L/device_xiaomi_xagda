@@ -875,16 +875,7 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/xagas5khm2_mipi_raw_3/mt
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/xagas5khm2_mipi_raw_3/mt6895/ISP_param.db
 
 # Charger
-lib/vendor.xiaomi.hardware.micharge@1.0.so
-lib64/vendor.xiaomi.hardware.micharge@1.0.so
 vendor/bin/batterysecret
-vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
-vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
-vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
 # ConsumerIr
 vendor/lib/hw/consumerir.common.so
