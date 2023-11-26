@@ -1,7 +1,6 @@
 # Audio
 ro.audio.silent=0
 ro.audio.usb.period_us=16000
-ro.camera.sound.forced=0
 
 # Blur
 ro.launcher.blur.appLaunch=0
@@ -34,18 +33,11 @@ persist.sys.fuse.passthrough.enable=true
 # Feature flags
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
-# IPO
-sys.ipo.disable=1
-sys.ipo.pwrdncap=2
-
 # Iorapd
 iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 ro.iorapd.enable=false
-
-# Kernel
-ro.kernel.zio=38,108,105,16
 
 # Perf
 ro.mtk_perf_simple_start_win=1
@@ -73,11 +65,6 @@ persist.log.tag.OpenGLRenderer=S
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
-# MiuiCamera
-ro.miui.notch=1
-ro.product.mod_device=xaga_global
-camera.lab.options=true
-
 # USB
 ro.sys.usb.bicr=no
 ro.sys.usb.charging.only=yes
@@ -89,18 +76,6 @@ persist.dbg.allow_ims_off=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-
-# WiFi
-mediatek.wlan.ctia=0
-ro.mediatek.wlan.p2p=1
-ro.mediatek.wlan.wsc=1
-wifi.direct.interface=p2p0
-wifi.interface=wlan0
-wifi.tethering.interface=ap0
-
-# RIL
-vendor.rild.libargs=-d /dev/ttyC0
-vendor.rild.libpath=mtk-ril.so
 
 # Radio
 persist.sys.radio.force_lte_ca=true
